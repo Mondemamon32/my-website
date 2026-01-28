@@ -85,3 +85,35 @@ a {
 a:hover {
     text-decoration: underline;
 }
+/* ============================= */
+/* Works Page - Flexbox Layout */
+/* ============================= */
+
+.works-page {
+    min-height: 100vh;
+    padding: 80px 20px;
+    background: url('background.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.works-container {
+    display: flex;
+    flex-wrap: wrap;           /* allows wrapping */
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.work-card {
+    background: rgba(107, 102, 102, 0.6);
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(201, 197, 197);
+}
+
+.work-card h2 {
+    margin-top: 0;
+}
